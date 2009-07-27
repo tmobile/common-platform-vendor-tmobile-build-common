@@ -1,10 +1,3 @@
-add_lunch_combo tmobile_generic_pluto-eng
-add_lunch_combo tmobile_dream_pluto-eng
-add_lunch_combo tmobile_zoom2_pluto-eng
-add_lunch_combo tmobile_sancho_pluto-eng
-add_lunch_combo tmobile_sapphire_pluto-eng
-add_lunch_combo tmobile_dream_pluto-user
-
 function sync() {
 	adb shell stop && \
 	  adb sync && \
