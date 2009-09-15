@@ -1,3 +1,4 @@
+include $(call all-makefiles-under,vendor/tmobile/libs)
 include $(call all-makefiles-under,vendor/tmobile/apps)
 include $(call all-makefiles-under,vendor/tmobile/providers)
 include $(call all-makefiles-under,vendor/tmobile/samples)
