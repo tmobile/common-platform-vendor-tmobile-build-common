@@ -15,3 +15,12 @@ function branchswitch() {
 	  branchclean && \
 	  repo sync
 }
+
+# Modularized by specific products to build product lunch menus and create
+# team-specific extensions.
+for f in $(/bin/ls vendor/tmobile/products/*/productsetup.sh 2> /dev/null)
+do
+	echo "including $f"
+	. $f
+done
+unset f
